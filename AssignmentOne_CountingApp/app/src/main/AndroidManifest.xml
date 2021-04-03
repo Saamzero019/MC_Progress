@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AssignmentOne_CountingApp">
         <activity android:name=".OneActivity" />
-        <activity android:name=".ZeroActivity" >
+        <activity android:name=".MainActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
