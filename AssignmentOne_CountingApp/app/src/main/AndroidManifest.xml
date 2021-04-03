@@ -9,6 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AssignmentOne_CountingApp">
+		<activity android:name=".NineActivity"></activity>
+        <activity android:name=".EightActivity" />
+        <activity android:name=".SevenActivity" />
+        <activity android:name=".SixActivity" />
+        
 		<activity android:name=".FiveActivity" />
         <activity android:name=".FourActivity" />
         <activity android:name=".ThreeActivity" />
