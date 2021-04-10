@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group >
+        <item
+            android:id="@+id/recent"
+            android:icon="@drawable/ic_baseline_watch_later_24"
+            android:title="Recent" />
+        <item
+            android:id="@+id/shared"
+            android:icon="@drawable/ic_baseline_people_alt_24"
+            android:title="Shared with me" />
+        <item
+            android:id="@+id/starred"
+            android:icon="@drawable/ic_baseline_star_24"
+            android:title="Starred" />
+        <item
+            android:id="@+id/offline"
+            android:icon="@drawable/ic_baseline_offline_pin_24"
+            android:title="Offline files" />
+        <item
+            android:id="@+id/trash"
+            android:icon="@drawable/ic_baseline_restore_from_trash_24"
+            android:title="Trash" />
+        <item
+            android:id="@+id/notifications"
+            android:icon="@drawable/ic_baseline_notifications_24"
+            android:title="Notifications" />
+        <item
+            android:icon="@drawable/ic_baseline_settings_24"
+            android:title="Options">
+            <menu>
+                <item
+                    android:icon="@drawable/ic_baseline_settings_24"
+                    android:title="Setting" />
+                <item
+                    android:icon="@drawable/ic_baseline_feedback_24"
+                    android:title="Help and feedback" />
+                <item
+                    android:icon="@drawable/ic_baseline_add_to_drive_24"
+                    android:title="Google Drive" />
+            </menu>
+        </item>
+        <item android:title="Google Apps">
+            <menu>
+                <item
+                    android:icon="@drawable/ic_baseline_library_books_24"
+                    android:title="Google Sheets" />
+                <item
+                    android:icon="@drawable/ic_baseline_library_books_24"
+                    android:title="Google Slides" />
+            </menu>
+        </item>
+    </group>
+</menu>
