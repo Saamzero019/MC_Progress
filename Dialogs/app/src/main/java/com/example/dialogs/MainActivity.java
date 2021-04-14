@@ -22,6 +22,30 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void ShowDialog(View view) {
-     
+        AlertDialog.Builder builder=new AlertDialog.Builder(MainActivity.this);
+
+        builder.setTitle("Dialog Alert!");
+        builder.setMessage("It is message of my dialog");
+        builder.setCancelable(false);
+        LayoutInflater inflater=this.getLayoutInflater();
+        builder.setView(inflater.inflate(R.layout.my_layout_dialog,null));
+
+        builder.setPositiveButton("Positive",
+                new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
+                        Toast.makeText(MainActivity.this,"Positive button was clicked",Toast.LENGTH_LONG).show();
+                    }
+                }
+        );
+
+        builder.setNegativeButton("Negative",
+                new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
+                        Toast.makeText(MainActivity.this,"Negative button was clicked",Toast.LENGTH_LONG).show();
+                    }
+                }
+        );
     }
 }
